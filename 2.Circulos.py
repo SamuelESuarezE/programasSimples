@@ -8,8 +8,8 @@ while True:
     try:
         radio = float(radio)
         perimetro = 2*pi*radio
-        area = pi*radio
-        print(f"El perimetro {round(perimetro, 2)} y el area es {round(area,2)}")
+        area = pi*(radio**2)
+        print(f"El perimetro es {round(perimetro, 2)} y el area es {round(area,2)}")
         break
     except ValueError:
         print("Error, intentalo de nuevo.")
